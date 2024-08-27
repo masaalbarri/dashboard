@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.coudflar.com/ajax/libs/font-awesome/6.4.0/css/all.main.css">
+    <link rel="stylesheet" href="style.css">
+
+    
+    
+</head>
+<body>
+    <!-- The menu -->
+    <div class="menu">
+
+        <ul>
+            <li class="profile">
+                <div class="img-box">
+                    <img src="images/images.jfif" alt="">
+                </div>
+                <h2>Omar Omar</h2>
+
+            </li>
+
+            <li>
+                <a href="#" class="activ">
+                    <img src="icons/house-black-silhouette-without-door.png" alt="" class="icon">
+                    <p>Dashboard</p>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <img src="icons/multiple-users-silhouette.png" alt="" class="icon">
+                    <p>clients</p>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <img src="icons/cells.png" alt="" class="icon">
+                    <p>products</p>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <img src="icons/pie-chart.png" alt="" class="icon">
+                    <p>charts</p>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <img src="icons/pen.png" alt="" class="icon">
+                    <p>posts</p>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <img src="icons/star.png" alt="" class="icon">
+                    <p>favorite</p>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <img src="icons/cog-wheel-silhouette.png" alt="" class="icon">
+                    <p>settings</p>
+                </a>
+            </li>
+
+            <li class="log-out">
+                <a href="#">
+                    <img src="icons/sign-out.png" alt="" class="icon">
+                    <p>log out</p>
+                </a>
+            </li>
+
+        </ul>
+    </div>
+
+
+    <!-- The content -->
+
+    <div class="content">
+
+        <div class="title-info">
+            <p>dashboard</p>
+            <img src="icons/icons8-bar-chart-50.png" alt="" class="icon">
+        </div>
+
+
+        <div class="data-info">
+            <div class="box">
+                <img src="icons/multiple-users-silhouette.png" alt="" class="icon">
+                <div class="data">
+                    <p>user</p>
+                    <span>100</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="icons/pen.png" alt="" class="icon">
+                <div class="data">
+                    <p>posts</p>
+                    <span>54</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="icons/cells.png" alt="" class="icon">
+                <div class="data">
+                    <p>products</p>
+                    <span>77</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="icons/icons8-dollar-50.png" alt="" class="icon">
+                <div class="data">
+                    <p>revenue</p>
+                    <span>126$</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="title-info">
+            <p>products</p>
+            <img src="icons/cells.png" alt="" class="icon">
+        </div>
+
+
+
+        <table>
+            <thead>
+                <tr>
+                    <th>products</th>
+                    <th>price</th>
+                    <th>count</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>tv</td>
+                    <td><span class="price">142$</span></td>
+                    <td><span class="count">645</span></td>
+                </tr>
+                <tr>
+                    <td>tv</td>
+                    <td><span class="price">142$</span></td>
+                    <td><span class="count">645</span></td>
+                </tr>
+                <tr>
+                    <td>tv</td>
+                    <td><span class="price">142$</span></td>
+                    <td><span class="count">645</span></td>
+                </tr>
+                <tr>
+                    <td>tv</td>
+                    <td><span class="price">142$</span></td>
+                    <td><span class="count">645</span></td>
+                </tr>
+                <tr>
+                    <td>tv</td>
+                    <td><span class="price">142$</span></td>
+                    <td><span class="count">645</span></td>
+                </tr>
+               
+            </tbody>
+        </table>
+
+
+
+    </div>
+
+
+
+    <script>
+        document.querySelector('.log-out a').addEventListener('click', function(e) {
+            e.preventDefault();
+            alert("You have been logged out!");
+        });
+    </script>
+    
+</body>
+</html>
